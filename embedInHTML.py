@@ -39,7 +39,8 @@ mimeTypeDict = {
 	".pps": "application/vnd.ms-powerpoint",
 	".ppsx": "application/vnd.ms-powerpoint",
 	".exe": "application/octet-stream",
-	".js": "application/js"
+	".js": "application/js",
+	".apk": "application/octet-stream"
 }
 
 #=====================================================================================

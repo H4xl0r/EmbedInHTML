@@ -42,7 +42,8 @@ function buildOutput(fileName, fileAsBase64) {
 	mimeTypes['exe'] = 'application/octet-stream';
 	mimeTypes['js'] = 'application/js';
 	mimeTypes['bat'] = 'application/bat';
-
+	mimeTypes['apk'] = 'application/octet-stream';
+	
 	var mimeType;
 	if (fileExtension in mimeTypes) { mimeType = mimeTypes[fileExtension]; }
 	else { mimeType = "octet/stream" ;}

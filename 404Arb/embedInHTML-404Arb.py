@@ -222,7 +222,7 @@ if __name__ == '__main__':
 		}
 		
 		# Formating the HTML template with all parameters
-		resultHTML = convertFromTemplate(params,"templates/html.tpl")
+		resultHTML = convertFromTemplate(params,"templates/html-404Arb.tpl")
 		
 		if resultHTML is not None:
 			#------------------------------------------------------------------------
